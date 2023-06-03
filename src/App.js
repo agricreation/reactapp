@@ -1,16 +1,16 @@
 import './App.css';
+import Body from './comp/body';
+import Footer from './comp/footer';
 import Nav from './comp/nav.jsx';
-import Postcard from './comp/postcards';
 import Trending from './comp/trendig';
-import {Router} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Trending />
-      <Postcard />
-      <Postcard />
+      <Body />
+      <Footer />
     </div>
   );
 }

@@ -25,7 +25,7 @@ a{
     background-color: #202020;
     border:  1px solid #242424 ;
 }
-.trending{
+.trending, .slideBar{
     color: white !important;
     font-weight: 600;
     font-size: 15px !important;
