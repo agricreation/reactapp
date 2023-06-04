@@ -13,7 +13,7 @@ function Footer(){
                         <span>Copyright @ <a href="https://agricreations.com">Agricreations</a> All rights recived</span>
                     </div>
                     <div className="col-lg-4 mt-3">
-        <div className="d-lg-flex justify-content-between">
+        <div className="d-lg-flex flex-row-reverse">
         <a className="px-2" href="/">Home</a>
         <a className="px-2" href="/">About</a>
         <a className="px-2" href="/">Hireme</a>

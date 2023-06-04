@@ -1,16 +1,18 @@
 import React from "react";
 import {LeftCards} from "./leftslide"
 import RightSlide from "./rightslide";
+import Tittle from "./heading";
 
 function Body() {
   return (
     <>
-      <div className="container-fluid mt-3">
+    <Tittle tittle="Read more" />
+      <div className="container mt-3">
         <div className="row">
-          <div className="col-lg-9">
+          <div className="col-lg-9 darkTheme rounded">
             <LeftCards />
           </div>
-          <div className="col-lg-3 mt-3">
+          <div className="col-lg-3 ">
             <RightSlide />
           </div>
         </div>

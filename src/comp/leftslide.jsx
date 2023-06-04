@@ -9,7 +9,7 @@ function LeftCards() {
 Fire fox focus Take your private mode to next level
 "
           dis="
-Fire fox focus Take your private mode to next level
+Moovendhan agriculture
 "
         />
         <Cards
@@ -17,15 +17,7 @@ Fire fox focus Take your private mode to next level
 Fire fox focus Take your private mode to next level
 "
           dis="
-Fire fox focus Take your private mode to next level
-"
-        />
-        <Cards
-          heading="
-Fire fox focus Take your private mode to next level
-"
-          dis="
-Fire fox focus Take your private mode to next level
+Moovendhan agriculture
 "
         />
 
@@ -44,10 +36,10 @@ function Cards(props) {
             alt="nothing"
           />
           <div className="card-body">
-            <h3 className="card-title white h5 text-primary">
+            <h3 className="card-title white h5 heading">
               {props.heading}
             </h3>
-            <p className="card-text">{props.dis}</p>
+            <p className="card-text author"><i class="fa-solid fa-user"></i> {props.dis}</p>
           </div>
         </div>
       </a>
