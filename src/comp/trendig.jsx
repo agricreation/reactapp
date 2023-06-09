@@ -8,7 +8,7 @@ function Trending() {
           <h6 className="trending-text Hcenter ">Trending:</h6>
         </div>
         <div className="col-xl-11 Hcenter">
-          <a href="">
+          <a href="/">
             <h6 className="trending Hcenter">Hkr agri techs youtube</h6>
           </a>
         </div>

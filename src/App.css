@@ -4,6 +4,13 @@
     font-family: raleway, sans-serif;
     color: white;
 }
+.poppins{
+    font-family: poppins, sans-serif;
+}
+.brandLogo{
+    width: 5vh;
+    height: auto;
+}
 .white{
     color: white;
 }
@@ -25,7 +32,7 @@ a{
     background-color: #202020;
     border:  1px solid #242424 ;
 }
-.trending, .slideBar{
+.trending, .slideBar, .headings{
     color: white !important;
     font-weight: 600;
     font-size: 15px !important;
@@ -40,3 +47,38 @@ a{
     align-items: center;
     margin-bottom: 0px !important;
 }
+.author{
+    font-size: calc(0.5rem + 0.3vw) !important;
+        color: rgb(48, 68, 252) !important;
+  } 
+  
+  .youtube-author{
+    font-size: calc(0.5rem + 0.5vw) !important;
+  }
+.heading{
+    font-size:calc(0.5rem + 1vw) !important;
+    font-weight: 600;
+}
+.info{
+    font-size:calc(0.6rem + 0.5vw) !important;
+}
+
+
+/* For lg in bootstrap  */
+
+@media only screen and (max-width:992px) {
+    .author{
+        font-size:calc(0.7rem + 0.7vw) !important;
+    }
+
+    .heading{
+        font-size:calc(0.7rem + 1.5vw) !important;
+
+    }
+    .info{
+        font-size:calc(0.6rem + 1vw) !important;
+    }
+    .youtube-author{
+        font-size: calc(0.7rem + 0.5vw) !important;
+      }
+  }

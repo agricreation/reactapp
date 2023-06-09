@@ -1,10 +1,11 @@
 import React from "react";
-
+import MegaMenu from "./megamenu";
+import Images from "../assets/img/logo";
 function Nav(props) {
   const items = [
-    { item: "Home", link: "www.google.com" },
-    { item: "About", link: "www.google.com" },
-    { item: "Contact us", link: "www.blogs.agricreations.com"},
+    {id:1, item: "Home", link: "www.google.com" },
+    {id:2, item: "About", link: "www.google.com" },
+    {id:3, item: "Contact us", link: "www.blogs.agricreations.com"},
   ];
   return (
     <nav className="navbar darkTheme navbar-expand-lg">
@@ -14,8 +15,9 @@ function Nav(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             {items.map((data) => (
-              <Navli item={data.item} href={data.link} />
+              <Navli id={data.id} item={data.item} href={data.link} />
             ))}
+          <MegaMenu />
           </ul>
         </div>
       </div>
@@ -25,9 +27,10 @@ function Nav(props) {
 }
 
 function BranLink() {
+  const brand = Images.logo;
   return (
     <a className="navbar-brand" href="/" rel="noreferrer">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi2kABZXd7Fy7M-nN0KCnSL0AgLLTIy1YVkA35oDjeyMtXau8ua6tp7FiWSCUg2ee18XQbUSZX8sVs3qGqt9MkDpJ_JCQV60zPfqLg4URbvRMK4aqc8B8fnKpSoHmUSkqs-mG0x83faGlaxp8BtC4cXGYFoFPbNIBSSX3gtS-eFGvEjA9rNaD1ak6QG9w=s150" alt="" />
+      <img className="brandLogo" src={brand} alt="agricreations" />
     </a>
   );
 }
