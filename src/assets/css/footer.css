@@ -1,3 +1,16 @@
 .background{
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(82, 82, 82, 0.205);
 }
+.footerLogo{
+  width: 10vh;
+  height: auto;
+}
+@media only screen and (max-width:992px) {
+  .footerGrid{
+    padding-top: 20px;
+  }
+  .footerLogo{
+    width: 30vh;
+    height: auto;
+  }
+  }

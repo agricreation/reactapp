@@ -1,5 +1,6 @@
 import React from "react";
-
+import MegaMenu from "./megamenu";
+import Images from "../assets/img/logo";
 function Nav(props) {
   const items = [
     { item: "Home", link: "www.google.com" },
@@ -16,6 +17,7 @@ function Nav(props) {
             {items.map((data) => (
               <Navli item={data.item} href={data.link} />
             ))}
+          <MegaMenu />
           </ul>
         </div>
       </div>
@@ -25,9 +27,10 @@ function Nav(props) {
 }
 
 function BranLink() {
+  const brand = Images.logo;
   return (
     <a className="navbar-brand" href="/" rel="noreferrer">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi2kABZXd7Fy7M-nN0KCnSL0AgLLTIy1YVkA35oDjeyMtXau8ua6tp7FiWSCUg2ee18XQbUSZX8sVs3qGqt9MkDpJ_JCQV60zPfqLg4URbvRMK4aqc8B8fnKpSoHmUSkqs-mG0x83faGlaxp8BtC4cXGYFoFPbNIBSSX3gtS-eFGvEjA9rNaD1ak6QG9w=s150" alt="" />
+      <img className="brandLogo" src={brand} alt="agricreations" />
     </a>
   );
 }

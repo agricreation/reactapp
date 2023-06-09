@@ -1,8 +1,10 @@
 import React from "react";
+import Tittle from "./heading";
 
 function LeftCards() {
   return (
     <>
+    <Tittle tittle="More For you" />
       <div className="row">
         <Cards
           heading="
@@ -20,7 +22,6 @@ Fire fox focus Take your private mode to next level
 Moovendhan agriculture
 "
         />
-
       </div>
     </>
   );
@@ -28,7 +29,7 @@ Moovendhan agriculture
 
 function Cards(props) {
   return (
-    <div className="col-lg-6 mt-3">
+    <div className="col-lg-6">
       <a href="/">
         <div className="card darkTheme">
           <img
@@ -36,10 +37,10 @@ function Cards(props) {
             alt="nothing"
           />
           <div className="card-body">
-            <h3 className="card-title white h5 heading">
-              {props.heading}
-            </h3>
-            <p className="card-text author"><i class="fa-solid fa-user"></i> {props.dis}</p>
+            <h3 className="card-title white h5 heading">{props.heading}</h3>
+            <p className="card-text author">
+              <i class="fa-solid fa-user"></i> {props.dis}
+            </p>
           </div>
         </div>
       </a>

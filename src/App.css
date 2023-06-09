@@ -4,6 +4,10 @@
     font-family: raleway, sans-serif;
     color: white;
 }
+.brandLogo{
+    width: 5vh;
+    height: auto;
+}
 .white{
     color: white;
 }
