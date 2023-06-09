@@ -14,9 +14,9 @@ function Footer(){
                     </div>
                     <div className="col-lg-4 mt-3">
                     <div className="d-lg-flex flex-row-reverse">
-                    <a className="px-2" href="/">About</a>
-                    <a className="px-2" href="/">Hireme</a>
-                    <a className="px-2" href="/">Get in touch</a>
+                    <a className="px-2" target="_blank" rel="noreferrer" href="https://agricreations.com">About</a>
+                    <a className="px-2" target="_blank" rel="noreferrer" href="https://link.agricreations.com/fiver">Hireme</a>
+                    <a className="px-2" target="_blank" rel="noreferrer" href="https://links.agricreations.com">Get in touch</a>
                     </div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@ function FooterInfo(){
         <SocialButton />
     </div>
 </div>
-        </div>
-        </>
+</div>
+</>
     )
 }
 export default Footer;

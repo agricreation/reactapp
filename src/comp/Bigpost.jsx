@@ -8,17 +8,17 @@ function Bigpost() {
     <a href="/">
       <div className="container mt-3 p-3 darkTheme">
         <div className="row rounded">
-          <div class="card text-bg-dark">
-            <img src={image} class="card-img" alt="Agri creations latest posts" style={{opacity:"50%"}} />
+          <div className="card text-bg-dark">
+            <img src={image} className="card-img" alt="Agri creations latest posts" style={{opacity:"50%"}} />
 
-            <div class="card-img-overlay p-5">
-              <h3 class="card-title mt-auto heading">Card title</h3>
-              <p class="card-text info">
+            <div className="card-img-overlay p-5">
+              <h3 className="card-title mt-auto heading">Card title</h3>
+              <p className="card-text info">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
-              <p class="card-text">
+              <p className="card-text">
                 <small className="badge bg-primary">Technology</small>
               </p>
             </div>

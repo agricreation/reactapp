@@ -39,7 +39,7 @@ function Cards(props) {
           <div className="card-body">
             <h3 className="card-title white h5 heading">{props.heading}</h3>
             <p className="card-text author">
-              <i class="fa-solid fa-user"></i> {props.dis}
+              <i className="fa-solid fa-user"></i> {props.dis}
             </p>
           </div>
         </div>

@@ -4,6 +4,9 @@
     font-family: raleway, sans-serif;
     color: white;
 }
+.poppins{
+    font-family: poppins, sans-serif;
+}
 .brandLogo{
     width: 5vh;
     height: auto;
@@ -44,9 +47,13 @@ a{
     align-items: center;
     margin-bottom: 0px !important;
 }
-.author {
+.author{
     font-size: calc(0.5rem + 0.3vw) !important;
         color: rgb(48, 68, 252) !important;
+  } 
+  
+  .youtube-author{
+    font-size: calc(0.5rem + 0.5vw) !important;
   }
 .heading{
     font-size:calc(0.5rem + 1vw) !important;
@@ -71,4 +78,7 @@ a{
     .info{
         font-size:calc(0.6rem + 1vw) !important;
     }
+    .youtube-author{
+        font-size: calc(0.7rem + 0.5vw) !important;
+      }
   }

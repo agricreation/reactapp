@@ -3,9 +3,9 @@ import MegaMenu from "./megamenu";
 import Images from "../assets/img/logo";
 function Nav(props) {
   const items = [
-    { item: "Home", link: "www.google.com" },
-    { item: "About", link: "www.google.com" },
-    { item: "Contact us", link: "www.blogs.agricreations.com"},
+    {id:1, item: "Home", link: "www.google.com" },
+    {id:2, item: "About", link: "www.google.com" },
+    {id:3, item: "Contact us", link: "www.blogs.agricreations.com"},
   ];
   return (
     <nav className="navbar darkTheme navbar-expand-lg">
@@ -15,7 +15,7 @@ function Nav(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             {items.map((data) => (
-              <Navli item={data.item} href={data.link} />
+              <Navli id={data.id} item={data.item} href={data.link} />
             ))}
           <MegaMenu />
           </ul>

@@ -7,3 +7,32 @@
     --bs-btn-padding-x: 1rem !important;
     --bs-btn-padding-y: 0.375rem;
 }
+
+.btn-instagram{
+    --bs-btn-color: #fff;
+    background-image:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f74dfd;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b760ff;
+    --bs-btn-active-border-color: #fcf6ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #cb71f5;
+    --bs-btn-disabled-border-color: #f500e9;
+}
+.btn-youtube{
+    --bs-btn-color: #fff;
+    background-image:linear-gradient(45deg, #ff0000 0%,#ff0000 25%,#dc2743 50%,#ffa7ca 75%,#ff2b2b 100%); 
+
+}
+.btn-facebook{
+    --bs-btn-color: #fff;
+    background-image:linear-gradient(45deg, #003cff 0%,#003cff 25%,#0084ff 50%,#038eff 75%,#0400ff 100%); 
+
+}
+.btn-primary{
+    --bs-btn-active-border-color: #fcf6ff;
+}
