@@ -122,3 +122,4 @@ function RightSlideYoutube() {
 
 export default RightSlide;
 export {SocialButton}
+export {RightSlideYoutube}
