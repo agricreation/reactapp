@@ -34,7 +34,6 @@ function BranLink() {
     </a>
   );
 }
-
 function Brand() {
   return (
     <button
