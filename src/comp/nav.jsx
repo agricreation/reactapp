@@ -1,11 +1,13 @@
 import React from "react";
 import MegaMenu from "./megamenu";
 import Images from "../assets/img/logo";
-function Nav(props) {
+import {Link} from "react-router-dom"
+
+function Nav() {
   const items = [
-    {id:1, item: "Home", link: "www.google.com" },
-    {id:2, item: "About", link: "www.google.com" },
-    {id:3, item: "Contact us", link: "www.blogs.agricreations.com"},
+    {id:1, item: "Home", link: "/" },
+    {id:2, item: "About", link: "/aboutus" },
+    {id:3, item: "Contact us", link: "/contactus"},
   ];
   return (
     <nav className="navbar darkTheme navbar-expand-lg">
@@ -15,7 +17,7 @@ function Nav(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             {items.map((data) => (
-              <Navli id={data.id} item={data.item} href={data.link} />
+              <Navli id={data.id} item={data.item} to={data.link} />
             ))}
           <MegaMenu />
           </ul>
@@ -53,9 +55,9 @@ function Brand() {
 function Navli(props) {
   return (
     <li className="nav-item navbarItems">
-      <a className="nav-link" href={props.href} rel="noreferrer">
+      <Link className="nav-link" to={props.to} rel="noreferrer">
         {props.item}
-      </a>
+      </Link>
     </li>
   );
 }

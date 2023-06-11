@@ -5,6 +5,7 @@ import Tittle from "./heading";
 import Postmodel from "./postmodel";
 import Bigpost from "./Bigpost";
 
+
 function Body() {
   return (
     <>

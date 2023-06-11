@@ -1,20 +1,20 @@
 import './App.css';
-// import VisitPost from './blog';
-// import Body from './comp/body';
+import { Routes, Route } from "react-router-dom";
 import Footer from './comp/footer';
 import Nav from './comp/nav.jsx';
+import Body from './comp/body';
 import AboutUs from './pages/aboutus';
-// import Test from './comp/test';
-// import Trending from './comp/trendig';
+import ContactUs from './pages/contactus';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <AboutUs />
-      {/* <Trending /> */}
-      {/* <Body /> */}
-      {/* <VisitPost /> */}
+    <Routes>
+      <Route exact path="/" element={<Body />} />
+      <Route exact path="aboutus" element={<AboutUs />} />
+      <Route exact path="contactus" element={<ContactUs />} />
+    </Routes>
       <Footer />
     </div>
   );

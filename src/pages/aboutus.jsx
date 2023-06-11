@@ -6,7 +6,7 @@ function AboutUs() {
   const aboutBanner = Images.aboutBanner;
   return (
     <>
-      <div className="AboutUs mt-3 p-3">
+      <div className=" container AboutUs mt-3 p-3">
         <div className="AboutImg">
           <img
             src={aboutBanner}
