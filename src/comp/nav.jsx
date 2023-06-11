@@ -17,7 +17,7 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             {items.map((data) => (
-              <Navli id={data.id} item={data.item} to={data.link} />
+              <Navli  id={data.id} item={data.item} to={data.link} />
             ))}
           <MegaMenu />
           </ul>
@@ -55,7 +55,10 @@ function Brand() {
 function Navli(props) {
   return (
     <li className="nav-item navbarItems">
-      <Link className="nav-link" to={props.to} rel="noreferrer">
+      <Link data-toggle="collapse"
+              data-target="#navbarCollapse"
+              activeClassName="active"
+              className="nav-link" to={props.to} rel="noreferrer">
         {props.item}
       </Link>
     </li>
