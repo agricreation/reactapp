@@ -1,3 +1,36 @@
+.main-content{
+    height: 100vh;
+
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&family=Rubik&display=swap');
+  .poppins{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  .raleway{
+    font-family: 'Raleway', sans-serif;
+    color: #0d6efd;
+  }
+  .socialButtons p{
+    padding: 5px;
+  }
+  .btn-primary{
+    --bs-btn-color: #fff;
+--bs-btn-bg: #7100f3;
+--bs-btn-border-color: #7700ff;
+--bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #0b5ed7;
+--bs-btn-hover-border-color: #0a58ca;
+--bs-btn-focus-shadow-rgb: 49,132,253;
+--bs-btn-active-color: #fff;
+--bs-btn-active-bg: #0a58ca;
+--bs-btn-active-border-color: #0a53be;
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: #fff;
+--bs-btn-disabled-bg: #0d6efd;
+--bs-btn-disabled-border-color: #0d6efd;
+  }
+
 .hide{
     display: none;
 }

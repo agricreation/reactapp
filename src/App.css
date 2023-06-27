@@ -7,12 +7,20 @@
 .poppins{
     font-family: poppins, sans-serif;
 }
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 .brandLogo{
     width: 5vh;
     height: auto;
 }
 .white{
     color: white;
+}
+.para{
+font-size: 15px;
+color: #d8d8d8;
+line-height: 22px;
 }
 body{
     background-color: #1a1a1a;

@@ -95,3 +95,4 @@ function Freelancing() {
 }
 
 export default AboutUs;
+export {VideoEditor}

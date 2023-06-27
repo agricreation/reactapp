@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Bigpost() {
   const image =
-    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT7NPS1lkPkvtx5zMCPpZKVRQ2BqELg8ZeGtg8Z9vrLM99I7Wt120Lr9pg-8THQVje3hUBbkDydQ7UrU3UGnZJcIb3vicy2Zlo-8OnWL0ZdRmBzT_i_88zB-K4gh_Va8c595nJLuIt2eo9IspUODyKz1v9-13XQYNixWpzaAs4GJvaJSB1tB6x7yCM8g/s16000/firefox%20focus%20take%20your%20privacy%20to%20next%20level.jpg";
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC2noZG_sKE8glw4Btvh-XfZpQFggGacLQ1s0t-OXcdRWJHrzy5ofWItXZLpDFbglTgySJRao_7hFMKXqbdGTLVQViwPnJKvJE_jtyo2TWxd23IEoDnZ2RpnkOaryX1I-QsVWApVdz0PyVENvAFP8QzyC9A67TM5-oMgctgi8Eok72xHEfyEo6z-MurYE/s1280/agricreations%20webdeveloper.png";
   return (
     <>
     <a href="/">
@@ -10,18 +10,17 @@ function Bigpost() {
         <div className="row rounded">
           <div className="card text-bg-dark">
             <img src={image} className="card-img" alt="Agri creations latest posts" style={{opacity:"50%"}} />
-
-            <div className="card-img-overlay p-5">
-              <h3 className="card-title mt-auto heading">Card title</h3>
-              <p className="card-text info">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+<Link to="/agricreations">
+            <div className="card-img-overlay p-5 poppins ">
+              <h3 className="card-title mb-auto heading bg-primary bg-opacity-25 text-info rounded p-1 my-1">About agricreations</h3>
+              <p className="card-text info bg-primary bg-opacity-25 text-info rounded p-1 my-1">
+              Hello, my name is Moovendhan, and I am a professional web developer. I have been actively engaged in writing articles for a blog. Additionally, I possess a keen interest in multimedia and have dedicated the past two years to working on YouTube. During this time, I have acquired valuable skills in applications such as Photoshop and Premiere Pro.
               </p>
               <p className="card-text">
-                <small className="badge bg-primary">Technology</small>
+                <small className="badge bg-primary">Portfolio</small>
               </p>
             </div>
+            </Link>
           </div>
         </div>
       </div>

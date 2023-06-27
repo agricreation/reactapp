@@ -1,34 +1,18 @@
 import React from "react";
 import RightSlide from "../comp/rightslide";
-import "../assets/css/visitpost.css"
 import Author from "../comp/author";
 import Youtube from "../comp/youtube";
-function VisitPost() {
+export default function VisitPosts() {
   return (
     <>
       <div className="container mt-3">
         <div className="row">
           <div className="col-lg-9 darkTheme rounded">
-           <MainPost />
-          </div>
-          <div className="col-lg-3 ">
-            <RightSlide />
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-
-function MainPost(){
-    return(
-        <>
-        <div className="poppins p-3">
-            <h3 className="title">About Moovendhan (agricreations) </h3>
-            <Author />
-            <div className="content mt-4">
-            <h3 className="mainTitle h5">Welcome to agricreations world</h3>
-            <div className="content">
+            <div className="content-heading">
+              <h3 className="py-3">About moovendhan (agricreations)</h3>
+              <Author />
+              
+              <div className="content">
                 <div className="content-img py-3">
                   <img
                     className="img-fluid border border-primary rounded"
@@ -65,9 +49,12 @@ function MainPost(){
                 </div>
               </div>
             </div>
+          </div>
+          <div className="col-lg-3 ">
+            <RightSlide />
+          </div>
         </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
-
-export default VisitPost;
