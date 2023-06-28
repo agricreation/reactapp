@@ -14,7 +14,7 @@ function Bigpost() {
             <div className="card-img-overlay p-5 poppins ">
               <h3 className="card-title mb-auto heading bg-primary bg-opacity-25 text-info rounded p-1 my-1">About agricreations</h3>
               <p className="card-text info bg-primary bg-opacity-25 text-info rounded p-1 my-1">
-              Hello, my name is Moovendhan, and I am a professional web developer. I have been actively engaged in writing articles for a blog. Additionally, I possess a keen interest in multimedia and have dedicated the past two years to working on YouTube. During this time, I have acquired valuable skills in applications such as Photoshop and Premiere Pro.
+              Hello, my name is Moovendhan,.....
               </p>
               <p className="card-text">
                 <small className="badge bg-primary">Portfolio</small>
